@@ -23,7 +23,8 @@ public class MostraTuttiServlet extends HttpServlet {
        
     }
 
-	
+	// CHE CLASSE QUESTA CLASSE!!! Servlet che utilizza il patter "FACCOTORY" model per decidere quale istanza utilizzare!
+    
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String url = "/mostratutti.jsp";
 		
